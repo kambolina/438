@@ -57,13 +57,31 @@ if (a == 10) alert( 'Верно!' );
 if (a !== 10) alert( 'Неверно!' );
 
 
+//задача 6 остаток от деления
+     
+let a = 10;
+let b = 3;
+// let c = a % b;
+
+consol.log(a % b); 
+
+
+//задача 7 числовой ряд 1-9
+
+let str;
+for (str = 1; str <= 9; str++) {
+  
+  console.log(str);
+}
+
+
+//задача 8 вывести a b e
+
+let str = 'abcde';
+console.log(str[0] + ' ' + str[1] + ' ' + str[4]);
 
 
 
-
-
-
-   
 
 
 
